@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css"
+    href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+<h1 style="background-color:rgb(250, 136, 70);">Student Registration Form</h1>
+
+<form>
+    
+   
+    <fieldset>
+        <legend  style="color: blue;"  >  NAME</legend>
+<label>Firstname: <input type= "text"name="firstname"> </label>
+<label>Lastname: <input type= "text"name="lastname"> </label><br>
+<label>Rollno: <input type= "text"name="rollno"> </label><br>
+</fieldset></br></br>
+
+
+
+
+<fieldset>
+<legend  style="color: blue;"  >  GENDER</legend>
+
+<label>Male: <input type= "radio"name="male" value="male"> </label>
+<label>Female: <input type= "radio"name="female" value="female"> </label></br>
+<label>other: <input type= "radio"name="other" value="other"> </label>
+</fieldset></br></br>
+
+
+
+<fieldset>
+    <legend   style="color: blue;"  > HOBBIES</legend>
+
+    <label>Singing: <input type= "checkbox"name="hobbies" value="singing"> </label>
+    <label>Dancing: <input type= "radio"name="hobbis" value="dancing"> </label></br>
+    <label>Reading: <input type= "radio"name="hobbies" value="reading"> </label>
+    <label>sports: <input type= "radio"name="sports" value="sports"> </label>
+    </fieldset></br></br>
+
+
+
+    <fieldset>
+        <legend style="color: blue;"  >  EDUCATION</legend>
+
+        <label>College name: <input type= "text"name="collegename"> </label>
+        <label>University: <input type= "text"name="Univeristy"> </label></br>
+         <label>Department: <input type="text" name="department"></label>
+    <select name="Department">
+    <option value="Electronics">ELEX</option>
+    <option value="Electronics and tel">EXTC</option>
+    <option value="computer science">CS</option>
+    <option value="Instrumetion">INSTRU</option>
+    <option value="mech">MECH</option>
+     </fieldset></br></br>
+    </select>
+
+    </fieldset>
+     </br></br>
+     <fieldset>
+        <legend style="color: blue;"  > SELF DETAILS</legend>
+     <label>Email: <input type= "email"name="email" > </label>
+     <label>phone no.: <input type= "text"name="phoneno" > </label></br>
+     <label>Address</label>
+     <textarea rows="3" cols="70" name="address" id="address"></textarea>
+     <h3>Date in dd-mm-yyyy</h3>
+     <label for="start">Enter a date</label>
+     <input type="date" name="begin" 
+     placeholder="dd-mm-yyyy" value=""
+     min="1997-01-01" max="2030-12-31">
+     </fieldset></br></br>
+
+     <input type="submit" style="color: rgb(8, 25, 175);"  >
+     <input type="reset" style="color: rgb(14, 11, 212);"  >    
+
+</fieldset>
+
+</form>
+     
+    </div>
+    
+</body>
+
+</html>
